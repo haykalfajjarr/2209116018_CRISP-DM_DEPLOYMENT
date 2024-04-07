@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import altair as alt
 import matplotlib.pyplot as plt
-from streamlit_option_menu import *
 from function import *
 
 df = pd.read_csv('insurance.csv')

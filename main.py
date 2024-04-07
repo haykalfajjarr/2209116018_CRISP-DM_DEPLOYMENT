@@ -5,7 +5,7 @@ import numpy as np
 import altair as alt
 import matplotlib.pyplot as plt
 from function import *
-
+from streamlit_option_menu import *
 df = pd.read_csv('insurance.csv')
 
 with st.sidebar :
